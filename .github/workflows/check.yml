@@ -15,11 +15,15 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # GTA4XL_EUR_OPEN
-          - model: "SM-P615"
-            csc: "XEF"
-            omc: "OXM"
-            imei: 355579426295626
+          - model: "SM-A235F"
+            csc: "THL"
+            omc: "OLM"
+            imei: 354650131867768
+
+          - model: "SM-A235M"
+            csc: "ZTO"
+            omc: "OWO"
+            imei: 351583483972907
 
     steps:
       - name: Checkout repo
