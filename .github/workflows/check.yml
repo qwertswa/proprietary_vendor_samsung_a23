@@ -14,26 +14,14 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - model: "SM-A057F"
-            csc: "XXV"
+          - model: "SM-A235F"
+            csc: "THL"
             omc: "OLM"
-            imei: 357533641234561
-          - model: "SM-A057G"
-            csc: "EUX"
-            omc: "OXM"
-            imei: 352318720492768
-          - model: "SM-A057M"
-            csc: "MXO"
+            imei: 354650131867768
+          - model: "SM-A235M"
+            csc: "ZTO"
             omc: "OWO"
-            imei: 354494164167907
-          - model: "SM-E145F"
-            csc: "INS"
-            omc: "ODM"
-            imei: 352300131083980
-          - model: "SM-M145F"
-            csc: "INS"
-            omc: "ODM"
-            imei: 351317280039457
+            imei: 351583483972907
 
     steps:
       - name: Checkout repo
